@@ -363,9 +363,6 @@ input:checked+.slider:before {
 .event-item-2:hover {
     background: #ededed !important;
 }
-.event-item-3:hover {
-    background : #8a2be2
-}
 .react-calendar-timeline * {
     box-sizing: border-box;
 }

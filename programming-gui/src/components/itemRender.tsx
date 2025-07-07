@@ -16,9 +16,9 @@ const itemRenderer = ({ item, timelineContext, itemContext, getItemProps, getRes
         case "2": // WHITE LIGHT
             backgroundColor = itemContext.resizing || item.selected ? "#ededed" : "#A0A0A0";
             break;
-        case "3": // IR LIGHT
-            backgroundColor = itemContext.resizing || item.selected ? "#8a2be2" : "#4b0082"; // violet and indigo shades
-            break;
+        //case "3": // IR LIGHT
+          //  backgroundColor = itemContext.resizing || item.selected ? "#8a2be2" : "#4b0082"; // violet and indigo shades
+            //break;
         default:
             console.log(typeof (item.group))
             if (itemContext.selected) { backgroundColor = "#000000"; } else { backgroundColor = "#FFFFFF"; }
