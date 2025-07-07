@@ -47,7 +47,7 @@ interface IProps {
 }
 
 const Day = (props: IProps) => {
-    const groups = ["R", "G", "W"].map((el, i) => { return { id: i, title: el } });
+    const groups = ["R", "G", "W", "IR"].map((el, i) => { return { id: i, title: el } });
 
     const handleCanvasClick = (groupId: string, time1: number, time2: number, e) => {
         e.stopPropagation()
