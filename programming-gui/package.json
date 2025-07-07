@@ -3,7 +3,6 @@
     "version": "0.1.0",
     "private": true,
     "main": "public/electron.js",
-    //"homepage": "./",
     "homepage": "https://cksacram1.github.io/flyboxapp",
     "dependencies": {
         "@testing-library/jest-dom": "^5.16.5",
