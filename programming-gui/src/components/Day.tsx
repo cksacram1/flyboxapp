@@ -4,8 +4,8 @@ import Timeline, {
     TimelineMarkers,
     TimelineHeaders,
     DateHeader,
-//} from "../react-calendar-timeline/src/index.js"
-} from "react-calendar-timeline";
+} from "../react-calendar-timeline/src/index.js"
+//} from "react-calendar-timeline";
 import Item from "../types";
 import itemRenderer from "./itemRender";
 import _ from "underscore"
