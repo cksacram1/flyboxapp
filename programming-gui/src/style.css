@@ -347,7 +347,6 @@ input:checked+.slider:before {
     border: none;
     min-width: 0;
 }
-
 /* RCT custom styles */
 .event-item-0:hover {
     background: #bd1c1c !important;
@@ -364,7 +363,9 @@ input:checked+.slider:before {
 .event-item-2:hover {
     background: #ededed !important;
 }
-
+.event-item-3:hover {
+    background : #8a2be2
+}
 .react-calendar-timeline * {
     box-sizing: border-box;
 }

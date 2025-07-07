@@ -7,14 +7,17 @@ const itemRenderer = ({ item, timelineContext, itemContext, getItemProps, getRes
     let backgroundColor = "";
 
     switch (item.group) {
-        case "0":
+        case "0": // RED LIGHT
             backgroundColor = itemContext.resizing || item.selected ? "#bd1c1c" : "#6F1111";
             break;
-        case "1":
+        case "1": // GREEN LIGHT
             backgroundColor = itemContext.resizing || item.selected ? "#2d8f15" : "#15430A";
             break;
-        case "2":
+        case "2": // WHITE LIGHT
             backgroundColor = itemContext.resizing || item.selected ? "#ededed" : "#A0A0A0";
+            break;
+        case "3": // IR LIGHT
+            backgroundColor = itemContext.resizing || item.selected ? "#8a2be2" : "#4b0082"; // violet and indigo shades
             break;
         default:
             console.log(typeof (item.group))
